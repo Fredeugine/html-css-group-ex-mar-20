@@ -8,6 +8,41 @@ body {
   padding: 0;
 }
 
+#main-section{
+  border: 1px solid red;
+  padding: 20px;
+}
+.list{
+  border: 1px solid red;
+  padding: 20px;
+}
+.list li{
+ margin-left: 40px;text-decoration: none;
+}
+
+.links a{
+  text-decoration: none;
+}
+.links a:hover{
+  cursor: default;
+}
+span{
+  display: block;
+}
+.other_divs{
+  width: 8rem;
+  height: 8rem;
+  border: 1px solid blue;
+  display: inline;
+}
+.finnish_btn{
+  transform: rotate(90deg) scale(200%);
+}
+.heading{
+  text-align: center;
+  border: 1px dashed blue;
+}
+
 html {
   min-height: 100vh;
   width: 100vw;
